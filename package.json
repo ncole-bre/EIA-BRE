@@ -1,0 +1,12 @@
+{
+  "name": "economic-impact-dashboard",
+  "version": "1.0.0",
+  "description": "Economic Impact Dashboard for Cheech Marin Center",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
