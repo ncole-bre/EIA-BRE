@@ -4,7 +4,8 @@
   "description": "Economic Impact Dashboard for Cheech Marin Center",
   "main": "index.js",
   "scripts": {
-    "start": "serve"
+    "build": "mkdir -p public && cp index.html index.js public/",
+    "start": "serve public"
   },
   "dependencies": {
     "serve": "^11.3.2"
